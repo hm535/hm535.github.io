@@ -75,14 +75,6 @@ p.lead {
   background-color: #847ebe;
 }
 
-.dev-icons {
-  font-size: 3rem;
-}
-
-.dev-icons .list-inline-item i:hover {
-  color: #4cb69f;
-}
-
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
