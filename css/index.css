@@ -217,11 +217,15 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #eae7dc !important;
+  background-color: #eae7dc;
+}
+
+.bg-light {
+  background-color: #fff;
 }
 
 .text-primary {
-  color: #e85a4f !important;
+  color: #e85a4f;
 }
 
 a {
@@ -232,7 +236,7 @@ a:hover,
 a:focus,
 a:active {
   color: #4d4d73;
-  outline: none !important
+  outline: none;
 }
 
 .btn-primary {
@@ -269,7 +273,7 @@ a:active {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: #4d4d73;
+  background: #e85a4f;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
