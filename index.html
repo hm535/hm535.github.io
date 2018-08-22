@@ -194,21 +194,6 @@
 					</div>
 				</div>
 
-				<!--div class="col-md-4 col-sm-6 projects-item">
-					<a class="projects-link" data-toggle="modal" href="#projectsModal2">
-						<div class="projects-hover">
-							<div class="projects-hover-content">
-								<i class="fa fa-plus fa-3x"></i>
-							</div>
-						</div>
-						<img class="img-fluid" src="img/tsukuba-thumbnail.png" alt="">
-					</a>
-					<div class="projects-caption">
-						<h4>Stereo Vision</h4>
-						<p>Laboratory for Intelligent Systems and Controls</p>
-					</div>
-				</div-->
-
 				<div class="col-md-4 col-sm-6 projects-item">
 					<a class="projects-link" data-toggle="modal" href="#avaasia">
 						<div class="projects-hover">
@@ -221,6 +206,21 @@
 					<div class="projects-caption">
 						<h4>Thermal Imaging</h4>
 						<p>Advanced Visual Analytics Asia</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 projects-item">
+					<a class="projects-link" data-toggle="modal" href="#social">
+						<div class="projects-hover">
+							<div class="projects-hover-content">
+								<i class="fa fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="img/social-robot-thumbnail.jpg" alt="">
+					</a>
+					<div class="projects-caption">
+						<h4>Social Robot</h4>
+						<p>Institute for Infocomm Research</p>
 					</div>
 				</div>
 			</div>
@@ -236,8 +236,8 @@
 						<img class="img-fluid" src="img/connectedCar-thumbnail.jpg" alt="">
 					</a>
 					<div class="projects-caption">
-						<h4>Social Robot</h4>
-						<p>Institute for Infocomm Research</p>
+						<h4>Stereo Vision</h4>
+						<p>Laboratory for Intelligent Systems and Controlsh</p>
 					</div>
 				</div>
 			
@@ -401,7 +401,7 @@
 		</div>
 	</div>
 
-	<!--MBRDNA Modal-->
+	<!--AVAA Modal-->
 	<div class="projects-modal modal fade" id="avaasia" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -444,6 +444,51 @@
 			</div>
 		</div>
 	</div>
+
+	<!--Social Modal-->
+	<div class="projects-modal modal fade" id="social" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 mx-auto">
+							<div class="modal-body">
+								<!-- Project Details -->
+								<h2 class="text-uppercase">Social Robot</h2>
+								<video width="263" height="465" controls>
+									<source src="img/social-robot.mp4" type="video/mp4">
+								</video>
+								<p>
+									At I2R, I worked on building a social "teddy-bear" robot designed to interact with autistic children. The goal was to 
+									understand the moods of the children, and allow the robot to respond in an appropriate manner. For example, if the child 
+									was punching the robot, it would respond sadly, and if he/ she was stroking the robot, it would be happy.
+								</p>
+								<p>
+									The actions themselves were designed after watching countless videos of pet animal behaviours, and the motion was controlled
+									by motors hooked up to an Arduino Mega board. To interpret the child's gestures, we placed touch sensitive receptors below the skin of the 
+									bear and classified the sensor data using machine learning models. Gestures were classified using the force of the touch (i.e. how hard or soft 
+									the touch was) as well as the duration of the touch.
+								</p>
+								<p>
+									The video above shows one of our very early prototypes that made use of an off-the-shelf teddy-bear skin. Subsequent models were designed with a 
+									custom skin. The bear is currently being beta-tested with different child care centers.
+								</p>
+								<button class="btn btn-primary" data-dismiss="modal" type="button">
+									<i class="fa fa-times"></i>
+									Close Window</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 	<!-- Bootstrap core JavaScript -->
 	<script src="vendor/jquery/jquery.min.js"></script>
