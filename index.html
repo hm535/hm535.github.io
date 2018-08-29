@@ -242,22 +242,22 @@
 					</div>
 				</div>
 
-				<!--div class="col-md-4 col-sm-6 projects-item">
-					<a class="projects-link" data-toggle="modal" href="#projectsModal2">
+				<div class="col-md-4 col-sm-6 projects-item">
+					<a class="projects-link" data-toggle="modal" href="#cal-uav">
 						<div class="projects-hover">
 							<div class="projects-hover-content">
 								<i class="fa fa-plus fa-3x"></i>
 							</div>
 						</div>
-						<img class="img-fluid" src="img/tsukuba-thumbnail.png" alt="">
+						<img class="img-fluid" src="img/uav-thumbnail.jpg" alt="">
 					</a>
 					<div class="projects-caption">
-						<h4>UAV Radio Communication</h4>
+						<h4>Socially Responsible UAVs</h4>
 						<p>CalUnmanned Aviation Laboratory</p>
 					</div>
 				</div>
-			
-				<div class="col-md-4 col-sm-6 projects-item">
+
+				<!--div class="col-md-4 col-sm-6 projects-item">
 					<a class="projects-link" data-toggle="modal" href="#projectsModal3">
 						<div class="projects-hover">
 							<div class="projects-hover-content">
@@ -528,6 +528,58 @@
 									During the project, I first modeled a mobile stereo-camera to generate depth maps based on
 									<a href="https://ieeexplore.ieee.org/document/4359315/"> Hirschmuller's algorithm for Semiglobal Matching.</a>
 									Currently, I am working on using the depth maps for egomotion estimation based on optical flow subtraction.
+								</p>
+								<button class="btn btn-primary" data-dismiss="modal" type="button">
+									<i class="fa fa-times"></i>
+									Close Window</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--CalUnmanned Modal-->
+	<div class="projects-modal modal fade" id="cal-uav" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 mx-auto">
+							<div class="modal-body">
+								<!-- Project Details -->
+								<h2 class="text-uppercase">Socially Responsible UAVs</h2>
+								<img class="img-fluid d-block mx-auto" src="img/uav.gif" alt="">
+								<p>
+									In the summer of 2015, I had the chance to work with 
+									<a href="http://unmanned.berkeley.edu/">UC Berkeley's CalUnmanned Aviation Laboratory</a>, which
+									focuses on the future of Unmanned Aerial Vehicles (UAVs).
+								</p>
+								<p>
+									Technology is no longer a barrier for high-performance UAVs, and before long, we can expect to regularly see
+									UAVs zooming around to aid in rescue efforts, deliver goods, or run other errands. CalUnmanned aims to develop
+									an licensing and management program that would allow government agencies to monitor UAVs and differentiate
+									between civilian and suspicious vehicles.
+								</p>
+								<p>
+									The licensing system is composed of a two-part broadcasting mechanism: visible LEDs and radio messages. The
+									LEDs flash a unique sequence of colours corresponding to the UAV's ID (analogous to a car's license plate).
+									The radio message emits telemetry information, including the ID, information about the UAV's owner, its
+									destination etc.
+								</p>
+								<p>
+									During my attachment, I worked on developing the radio connections and designing the messages, based on the
+									ADS-B packetsof commerical flights. Our prototype was displayed at NASA's Unmanned Traffic Management (UTM)
+									Convention 2015!
+								</p>
+								<p>
+									To learn more about the future of Unmanned Traffic Management, visit NASA's page <a href="https://utm.arc.nasa.gov/index.shtml">here</a>.
 								</p>
 								<button class="btn btn-primary" data-dismiss="modal" type="button">
 									<i class="fa fa-times"></i>
