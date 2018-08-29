@@ -428,7 +428,7 @@ a:active {
 	width: 2px;
 	margin-left: -1.5px;
 	content: '';
-	background-color: #e85a4f;
+	background-color: #eae7dc;
 }
 
 .timeline>li {
@@ -478,7 +478,7 @@ a:active {
 	margin-left: 0;
 	text-align: center;
 	color: white;
-	border: 7px solid #e85a4f;
+	border: 7px solid #eae7dc;
 	border-radius: 100%;
 	/* background-color: #fed136; */
 }
